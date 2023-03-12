@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Almendra', serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+  
+  }
+  html{
+      scroll-behavior: smooth;
+  }
+  #my_header{
+    text-align: center;
+    margin-top: 3px;
+    font-size: 1.5em;
+    font-weight: thin;
+    
+  
+  }
+  #navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 8px;
+    left: 8px;
+    bottom: 8px;
+    width: 300px;
+    height: 100%;
+    border-right: none;
+    border-color: rgba(0, 22, 22, 0.4);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    border-radius: 15px ;
+  
+  }
+  #navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+   
+  }
+  
+  #navbar li {
+    color: #4d4e53;
+    border: 0px solid rgb(212, 192, 130);
+    list-style: none;
+    position: relative;
+    width: 100%;
+  }
+  #navbar a {
+    display: block;
+    padding:5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(70 62 59 / 99%);
+    width: 250px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    border-radius: 5px;
+  
+  }
+  
+  #navbar > ul > li{
+    list-style: none;  
+    padding: 3px;  
+    width: 70px;  
+    text-align: center; 
+    
+  }
+  
+  #main-doc{
+    margin-top: 5px;
+    position: absolute;
+    margin-left: 310px;
+  }
+  header{
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: thin;
+    font-family: 'Ravi Prakash', cursive;
+  
+    
+   
+  }
+  .main-section{
+    border: 0px solid rgba(252, 128, 79, 0.801);
+    margin: 10px;
+    padding: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    border-radius: 15px 0px ;
+    background-color: white;
+   
+  }
+  
+  ul {
+    list-style: inside;
+    margin-left: 20px;
+  }
+  article{
+    border: 0px solid;
+    padding: 10px;
+    line-height: 2;
+    
+  
+  }
+  p{
+    border: 0px solid rgb(211, 39, 39);
+    padding: 8px;
+    margin: 10px;
+  
+  }
+  code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px 0px ;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    color: rgb(70 62 59 / 99%);
+  }
+  
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgba(22, 231, 116, 0.726); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    width: 100px;
+  
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(182, 52, 52); /* Add a dark-grey background on hover */
+    transition: all 3s ease-in-out;
+  
+  }
+  @media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+    #navbar ul {
+      border: 0px solid;
+      height: 207px;
+      display: block;
+      
+      list-style: none;  
+      padding: 10px;  
+       
+      
+     
+    }
+    
+  
+    #navbar {
+      background-color: rgb(247, 247, 247);
+      position: absolute;
+      top: 0;
+      padding: 0;
+      margin: 0px;
+      width: 99%;
+      border: 0px solid rgb(0, 0, 0);
+      z-index: 1;
+      border-bottom: 0px solid;
+      display: block;
+      height: 300px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+     
+  
+    }
+    
+    
+  
+    #main-doc {
+      position: relative;
+      margin-left: 0px;
+      margin-top: 310px;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    #main-doc {
+      margin-left: -10px;
+    }
+  
+    code {
+      margin-left: -20px;
+      width: 100%;
+      padding: 15px;
+      padding-left: 10px;
+      padding-right: 45px;
+      min-width: 233px;
+    }
+  }
+  
+  
+  
+  
+  
